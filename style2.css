@@ -1,0 +1,79 @@
+body {
+    background-image: url(imagens/fundo2.gif);
+        background-position: center;
+    background-size: 90%;
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+}
+
+#area-jogo {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+
+}
+
+#personagem {
+    width: 100%;
+    pointer-events: none;
+}
+
+#cabelo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+
+}
+
+#opcoes-cabelo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+     width: 60px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#opcoes-cabelo img {
+    width: 60px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+#opcoes-cabelo img:hover {
+    transform: scale(1.1);
+}
+
+#cabelo {
+    width: 200px;
+    position: absolute;
+    top: 100px;   
+    left: 700px; 
+}
+
+#opcoes-cabelo {
+    position: absolute;
+    top: 70px;   
+    left: 1140px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#opcoes-cabelo img {
+    width: 80px;
+    cursor: pointer;
+}
+
